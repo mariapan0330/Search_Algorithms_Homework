@@ -38,7 +38,7 @@ target = 70
 def linear_search(lst,target):
     for i, num in enumerate(lst):
         if num == target:
-            return i
+            return f"The index for {target} is {i}."
     else:
         return -1
 
